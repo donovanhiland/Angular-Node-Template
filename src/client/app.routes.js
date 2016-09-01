@@ -1,16 +1,12 @@
-angular.module('mealplanner')
+angular.module('')
 .config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
-    .state('login', {
-      url: '/',
-      templateUrl: './views/login.html',
-      controller: 'loginCtrl'
-    }).state('home', {
-      url: '/home',
-      templateUrl: './views/home.html',
-      controller: 'homeCtrl'
-    });;
+    .state('', {
+      url: '',
+      templateUrl: '',
+      controller: ''
+    });
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('');
   })

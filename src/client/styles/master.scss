@@ -1,17 +1,1 @@
-// RESET NORMALIZE
-@import 'reset';
-@import 'normalize';
-
-// FONT
-@import 'https://fonts.googleapis.com/css?family=Unica+One';
-
-html, body {
-  font-family: 'Unica One', cursive;
-  width: 100%;
-  height: 100%;
-}
-
-.view-container {
-  width: 100%;
-  height: 100%:
-}
+// frontend scss. will need to change gulp globbing for sass

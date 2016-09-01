@@ -5,20 +5,20 @@ import bodyParser from 'body-parser';
 import config from './config.js';
 import session from 'express-session';
 
-// CONTROLLERS //
-
-
 // POLICIES //
 const isAuthed = (req, res, next) => {
     if (!req.isAuthenticated()) return res.status(401).send();
     return next();
 };
 
-// SERVICES //
-// import passport from './services/passport.js';
-
 // INITIALIZE APP //
 const app = module.exports = express();
+
+// CONTROLLERS //
+// Import CONTROLLERS
+
+// SERVICES //
+// Import SERVICES like a passport file
 
 // INITIALIZE DEPENDENCIES //
 app.use(cors());
@@ -32,16 +32,22 @@ app.use(session({
 // app.use(passport.session());
 app.use(express.static(__dirname + './../public'));
 
-
+// GET ENDPOINTS //
 app.get('', function(req, res, next) {
 
 });
+
+// POST ENDPOINTS //
 app.post('', function(req, res, next) {
 
 });
+
+// PUT ENDPOINTS //
 app.put('', function(req, res, next) {
 
 });
+
+// DELETE ENDPOINTS //
 app.delete('', function(req, res, next) {
 
 });

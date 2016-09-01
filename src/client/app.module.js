@@ -1,1 +1,1 @@
-angular.module('mealplanner', ['ui.router']);
+angular.module('', ['ui.router']);
