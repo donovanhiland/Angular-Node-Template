@@ -1,14 +1,14 @@
 {
-  "name": "mealplanner",
+  "name": "angular-template",
   "version": "1.0.0",
-  "description": "populate a weekly meal plan",
+  "description": "skeleton for angular projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "\u001b[2~\u001b[3;3~https://github.com/donovanhiland/MealPlanner.git"
+    "url": ""
   },
   "author": "Donovan Hiland",
   "license": "ISC",
